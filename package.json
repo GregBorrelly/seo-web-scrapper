@@ -1,5 +1,5 @@
 {
-  "name": "seo-web-scrapper",
+  "name": "seo-tests",
   "version": "1.0.0",
   "description": "Tool to crawl websites in order to determine SEO best practices",
   "main": "index.js",
@@ -12,7 +12,10 @@
   "author": "Greg Borrelly",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.18.0",
     "cheerio": "^1.0.0-rc.2",
-    "request": "^2.87.0"
+    "isomorphic-unfetch": "^2.0.0",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2"
   }
 }
