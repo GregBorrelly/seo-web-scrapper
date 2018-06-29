@@ -1,7 +1,7 @@
 const request = require('request');
 const cheerio = require('cheerio');
 const fetch = require('isomorphic-unfetch')
-const MetaMan = require('cheerio')
+const towser = require('cheerio')
 // tags: ["//link[@hreflang]", "//h1", "//title", "//meta[@name='description']"],
 
 loadUrl = async (url) => {
@@ -22,7 +22,7 @@ loadUrl = async (url) => {
 // USAGE 
 
 
-MetaMan.check
+towser.check()
 
 exports.SEOCheck = async (url, options) => {
   
