@@ -1,6 +1,6 @@
 {
-  "name": "seo-tests",
-  "version": "1.0.0",
+  "name": "meta-man",
+  "version": "2.0.0",
   "description": "Tool to crawl websites in order to determine SEO best practices",
   "main": "index.js",
   "scripts": {
@@ -13,9 +13,10 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0",
-    "cheerio": "^1.0.0-rc.2",
+    "chromedriver": "^2.40.0",
     "isomorphic-unfetch": "^2.0.0",
     "request": "^2.87.0",
-    "request-promise": "^4.2.2"
+    "request-promise": "^4.2.2",
+    "selenium-webdriver": "^4.0.0-alpha.1"
   }
 }

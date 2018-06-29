@@ -1,4 +1,8 @@
 let test = require('./index')
 
-let a = test.getHTML("https://www.jcrew.com")
-console.log(a)
+let a = test.SEOCheck("https://www.jcrew.com").then( (res) => {
+
+}
+
+    
+)
