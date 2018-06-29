@@ -1,5 +1,5 @@
 {
-  "name": "meta-man",
+  "name": "sweven",
   "version": "2.0.0",
   "description": "Tool to crawl websites in order to determine SEO best practices",
   "main": "index.js",
